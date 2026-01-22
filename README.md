@@ -62,23 +62,27 @@ Estratégia intencionalmente orientada à **redução de falsos negativos**.
 ## Estrutura do Projeto
 
 src/
-├── run.py
-├── config.py
-├── models/
-│   ├── predict.py
-│   ├── predict_hybrid.py
-│   ├── train_hybrid.py
-│   └── make_synth_dataset.py
-├── features/
-│   └── regex_features.py
-├── io/
-│   ├── load_data.py
-│   └── schemas.py
-└── utils/
-    └── metrics.py
+  run.py
+  config.py
+
+  models/
+    predict.py
+    predict_hybrid.py
+    train_hybrid.py
+    make_synth_dataset.py
+
+  features/
+    regex_features.py
+
+  io/
+    load_data.py
+    schemas.py
+
+  utils/
+    metrics.py
 
 data/
-└── .gitkeep
+  .gitkeep
 
 
 ---
