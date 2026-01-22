@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+artifacts/models/*.joblib
+artifacts/reports/*.json
+.DS_Store
+
+data/*.xlsx
+data/*.xls
+data/*.csv
+data/*.jsonl
+
+artifacts/
+__pycache__/
+*.pyc
