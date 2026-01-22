@@ -63,7 +63,7 @@ Estratégia intencionalmente orientada à **redução de falsos negativos**.
 
 src/
  ├── run.py
- │── config.py 
+ ├── config.py
  ├── models/
  │   ├── predict.py
  │   ├── predict_hybrid.py
@@ -71,13 +71,15 @@ src/
  │   └── make_synth_dataset.py
  ├── features/
  │   └── regex_features.py
- └── io/
- │  └── load_data.py
- │  └── schemas.py
- │── utils
- │  └── metrics.py
+ ├── io/
+ │   ├── load_data.py
+ │   └── schemas.py
+ └── utils/
+     └── metrics.py
+
 data/
  └── .gitkeep
+
 
 ---
 
@@ -103,7 +105,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶Execução
+## Execução
 
 python -m src.run --input CAMINHO_DO_ARQUIVO.xlsx --output artifacts/reports/preds_final.csv --mode auto
 
