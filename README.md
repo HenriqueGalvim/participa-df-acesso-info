@@ -66,10 +66,12 @@ src/
   config.py
 
   models/
+    make_synth_dataset.py
     predict.py
     predict_hybrid.py
+    report_preds.py
+    train.py
     train_hybrid.py
-    make_synth_dataset.py
 
   features/
     regex_features.py
@@ -83,6 +85,7 @@ src/
 
 data/
   .gitkeep
+
 
 
 ---
