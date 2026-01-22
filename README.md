@@ -113,6 +113,7 @@ pip install -r requirements.txt
 ---
 
 ## Execução
+Basta rodar o comando abaixo, não se esqueça de especificar o caminho do arquivo que será analisado, ele pode ser .xlsx, .csv, .jsonl.
 
 python -m src.run --input CAMINHO_DO_ARQUIVO.xlsx --output artifacts/reports/preds_final.csv --mode auto
 
